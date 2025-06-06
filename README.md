@@ -96,4 +96,4 @@ Ensure the bot has the following permissions:
 
 ## 💬 Support
 
-Need help? Found a bug? Reach out through your preferred support channel.
+Need help? Found a bug? Reach out through discord @reave07.
