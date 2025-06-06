@@ -13,7 +13,7 @@ module.exports = {
                 if (args.length === 0) return message.reply('Please provide a suggestion.');
 
                 const suggestionText = args.join(' ');
-                const suggestionChannel = client.channels.cache.get('1376230525966225578'); // Replace with your actual channel ID
+                const suggestionChannel = client.channels.cache.get('CHANNEL_ID'); // Replace with your actual channel ID
 
                 if (!suggestionChannel) return message.reply('Suggestion channel not found.');
 
