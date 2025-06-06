@@ -19,10 +19,10 @@ client.modules = new Collection();
 
 client.config = {
     prefix: '-', // You are using '-' as the command prefix
-    adminRoleId: '1317990180300263426',
-    supportRoleId: '1317990180283744327',
-    reviewChannelId: '1376229214541447288',
-    transcriptChannelId: '1376231043572564149',
+    adminRoleId: 'PUT_ID_HERE',
+    supportRoleId: 'PUT_ID_HERE',
+    reviewChannelId: 'PUT_ID_HERE',
+    transcriptChannelId: 'PUT_ID_HERE',
 };
 
 // 🔁 Dynamically load all modules from the /modules directory
