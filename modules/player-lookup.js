@@ -18,7 +18,7 @@ module.exports = {
                         .setTitle('❌ Missing Username')
                         .setDescription('Please provide a Minecraft username.\nExample: `-mcinfo Dream`')
                         .setColor('Red')
-                        .setFooter({ text: 'GameSlayer SMP' });
+                        .setFooter({ text: 'YOUR_SERVER_NAME' });
                     return message.reply({ embeds: [errorEmbed] });
                 }
 
@@ -33,7 +33,7 @@ module.exports = {
                                 .setTitle('❌ Player Not Found')
                                 .setDescription(`The username \`${username}\` does not exist or is not a premium Minecraft account.`)
                                 .setColor('Red')
-                                .setFooter({ text: 'GameSlayer SMP' });
+                                .setFooter({ text: 'YOUR_SERVER_NAME' });
                             return message.reply({ embeds: [notFoundEmbed] });
                         }
 
@@ -52,7 +52,7 @@ module.exports = {
                                     { name: 'Skin Preview', value: `[Click to view](${skinUrl})`, inline: true },
                                     { name: 'NameMC Profile', value: `[View Profile](https://namemc.com/profile/${uuid})`, inline: true }
                                 )
-                                .setFooter({ text: 'GameSlayer SMP' });
+                                .setFooter({ text: 'YOUR_SERVER_NAME' });
 
                             message.channel.send({ embeds: [embed] });
                         } catch (err) {
@@ -61,7 +61,7 @@ module.exports = {
                                 .setTitle('❌ Error')
                                 .setDescription('An error occurred while fetching the player data.')
                                 .setColor('Red')
-                                .setFooter({ text: 'GameSlayer SMP' });
+                                .setFooter({ text: 'YOUR_SERVER_NAME' });
                             message.reply({ embeds: [errorEmbed] });
                         }
                     });
@@ -71,7 +71,7 @@ module.exports = {
                         .setTitle('❌ HTTP Error')
                         .setDescription('Failed to contact Mojang API.')
                         .setColor('Red')
-                        .setFooter({ text: 'GameSlayer SMP' });
+                        .setFooter({ text: 'YOUR_SERVER_NAME' });
                     message.reply({ embeds: [errorEmbed] });
                 });
             }
