@@ -27,7 +27,7 @@ module.exports = {
 
     const RECONNECT_DELAY = 10000;
     const CHECK_INTERVAL = 5000;
-    const ADMIN_ROLE_ID = '1374783520026787881';
+    const ADMIN_ROLE_ID = 'PUT_ID_HERE';
 
     function saveStorage() {
       try {
@@ -47,9 +47,9 @@ module.exports = {
 
       console.log('🟡 Connecting to server...');
       bot = mineflayer.createBot({
-        host: 'gameslayer.playcraft.me',
-        port: 18838,
-        username: 'GameSlayerSMP',
+        host: 'PUT_SERVER_IP_HERE',
+        port: 25565,
+        username: 'Bot',
       });
 
       bot.once('spawn', () => {
