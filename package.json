@@ -1,12 +1,12 @@
 {
-  "name": "discord-ticket-bot",
+  "name": "discord-minecraft-integration-bot",
   "version": "1.0.0",
-  "description": "A modular Discord ticket bot",
+  "description": "A modular Discord bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "YourName",
+  "author": "reave",
   "license": "MIT",
   "dependencies": {
     "discord-html-transcripts": "^3.2.0",
